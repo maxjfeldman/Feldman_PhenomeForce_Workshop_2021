@@ -661,10 +661,6 @@ tuber_sd_for_h2<-tuber_sd_for_h2[,-c(3)]
 
 h2_tuber.shape.sd<-get_h2(tuber_sd_for_h2)
 
-## Lets reformat for H2 estimates
-PC16<-PC16[,c(6,7,8,9,10,11,1:5)]
-PC16<-PC16[PC16$side == 1,]
-
 
 ##########################################################################################
 ## Analysis of color checker standards
